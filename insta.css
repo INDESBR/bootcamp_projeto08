@@ -56,6 +56,12 @@ header {
     height: 25px;
     width: 200px;
     margin-left: 100px;
+    border:solid 1px #c4c4c4;
+    border-radius: 2px;
+}
+
+.search input::placeholder{
+    text-align: center;
 }
 
 .icons {
@@ -68,12 +74,45 @@ header {
 
 .header-icon {
     margin: 0 10px;
-    background-color: cadetblue;
-    padding: 10px;
-    border-radius: 50%;
+   
+    padding: 12px;
 }
 
+#home {
+    background-image: url("https://github.com/INDESBR/bootcamp_projeto08/blob/main/icons/home.png?raw=true");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+}
 
+#send {
+    background-image: url("https://github.com/INDESBR/bootcamp_projeto08/blob/main/icons/send.png?raw=true");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+}
+
+#find {
+    background-image: url("https://github.com/INDESBR/bootcamp_projeto08/blob/main/icons/find.png?raw=true");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+}
+
+#heart {
+    background-image: url("https://github.com/INDESBR/bootcamp_projeto08/blob/main/icons/heart.png?raw=true");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+}
+
+#profile {
+    background-image: url("https://github.com/INDESBR/bootcamp_projeto08/blob/main/profile/profile_photo.png?raw=true");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:100%;
+    border-radius: 100%;
+}
 
 /* --- HEADER ---- */
 
@@ -96,6 +135,7 @@ main {
 .content {
     width: 600px;
     border: solid 1px #c4c4c4;
+    border-radius: 2px;
     background-color: white;
     margin-bottom: 40px;
 }
@@ -171,7 +211,6 @@ main {
 }
 
 .int-button {
-    background-color: teal;
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -223,16 +262,22 @@ aside {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 10px;
+    width: 100%;
 }
 
-.aside-more img {
+.aside-img-container img {
     width: 40px;
     border-radius: 100%;
     margin-top: 10px;
 }
 
+.aside-more-container {
+    display: flex;
+}
+
 .aside-more p {
-    margin-right: 130px;
+    margin-right: 120px;
     font-weight: bold;
 }
 
@@ -241,3 +286,14 @@ aside {
 }
 
 /* --- ASIDE ---- */
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    border-top: solid 1px #c4c4c4;
+    padding: 20px;
+    width: 100%;
+}
+
+/* FOOTER */
