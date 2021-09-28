@@ -297,3 +297,54 @@ footer {
 }
 
 /* FOOTER */
+
+
+@media (max-width: 650px){
+    
+    
+    .content-container {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .content {
+        width: 90vw;
+        margin: 20px;
+    }
+    
+    aside {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .container {
+        width: 90vw;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .header-icon {
+        padding: 10px;
+    }
+
+
+   
+
+}
+
+@media (max-width: 180px) {
+    .content-container  {
+        width: 500px;
+        background-color: rgb(255, 0, 0);
+    }
+
+
+}
