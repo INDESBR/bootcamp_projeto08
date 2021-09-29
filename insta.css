@@ -301,20 +301,35 @@ footer {
 
 @media (max-width: 650px){
     
-    
     .content-container {
         display: flex;
         justify-content: center;
+    }
+
+    main {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       margin: 10px;
+       padding: 0;
+    }
+
+    .content-container {
         width: 100vw;
+        display: flex;
+        justify-content: center;
     }
 
     .content {
-        width: 90vw;
-        margin: 20px;
+       width: 100%;
+       
     }
     
+    
+
     aside {
         display: none;
+       
     }
 
     .search {
