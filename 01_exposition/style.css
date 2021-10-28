@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+#pai {
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+#filho {
+    border-radius: 50%;
+    background-color: rgb(9, 255, 0);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+    /*
+    position: fixed
+    position: relative (recebe alteração)
+    position: absolute  (recebe alteração porém nao ultrapassa o container pai)
+    position: sticky (recebe alteração a partir do momento que toca na borda do navegador)
+    */
+
+
+    /*
+    top: 0 / 10px
+    bottom: 0 / 10px
+    left: 0 / 10px
+    right: 0 / 10px
+    */
+}
